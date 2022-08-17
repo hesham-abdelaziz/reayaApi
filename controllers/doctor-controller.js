@@ -3,7 +3,7 @@ const userModel = require('../models/user');
 const adModel = require("../models/ads");
 
 const nodeMailer = require('nodemailer');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const transporter = nodeMailer.createTransport({
     service : 'Gmail',
